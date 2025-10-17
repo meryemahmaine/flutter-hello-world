@@ -17,12 +17,12 @@ class MyApp extends StatelessWidget {
         body: Container(
           padding: const EdgeInsets.all(20),
           width: double.infinity,
-          color: const Color.fromARGB(255, 209, 221, 233),
+          color:Color.fromARGB(255, 209, 221, 233),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
 
-              // First container — title
+             
               Container(
                 decoration: BoxDecoration(
                   color: Colors.amber[50],
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8),
                 ),
                 padding: const EdgeInsets.all(10),
-                width: double.infinity,
+                width:1000,
                 child: Text(
                   "Meryem Ahmaine",
                   textAlign: TextAlign.center,
@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
 
               const SizedBox(height: 15),
 
-              // Second container — paragraph
+           
               Container(
                 decoration: BoxDecoration(
                   color: Colors.amber[50],
@@ -75,8 +75,8 @@ class MyApp extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.grey.withOpacity(0.3),
-                      spreadRadius: 2,
+                      color: Colors.grey,
+                     
                       blurRadius: 4,
                       offset: const Offset(0, 2),
                     ),
@@ -88,7 +88,7 @@ class MyApp extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
 
-                    // Star icons
+                   
                     Row(
                       children: const [
                         Icon(Icons.star, color: Colors.amber, size: 26),
